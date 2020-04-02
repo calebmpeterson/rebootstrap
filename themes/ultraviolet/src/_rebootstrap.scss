@@ -1,0 +1,274 @@
+// Variables ===================================================================
+$web-font-path: "https://fonts.googleapis.com/css?family=Spartan:200|Open+Sans:300:400:700" !default;
+@import url($web-font-path);
+
+// Headings ====================================================================
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+}
+
+// Cards =======================================================================
+.card {
+  .card-header {
+    text-transform: uppercase;
+    font-size: 80%;
+  }
+  .card-title {
+    color: $white;
+  }
+
+  &.bg-light {
+    &,
+    .card-title {
+      color: $gray-900;
+    }
+  }
+}
+
+// Modals ======================================================================
+.modal {
+  .modal-dialog {
+    box-shadow: $box-shadow-lg;
+  }
+  .modal-title {
+    font-size: 100%;
+  }
+}
+
+// Buttons =====================================================================
+.btn {
+  letter-spacing: 1px;
+  font-size: 80%;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.btn-group-vertical {
+  .btn:not(:last-of-type) {
+    margin-bottom: 0.25rem;
+  }
+}
+
+// Breadcrumbs =================================================================
+.breadcrumb-item {
+  font-weight: 700;
+}
+.breadcrumb-item::before {
+  font-family: Consolas, "Courier New", monospace;
+}
+
+// Dropdowns ===================================================================
+.dropdown-menu {
+  &.show {
+    box-shadow: $box-shadow-lg;
+  }
+}
+
+// List Groups =================================================================
+.list-group-item-action {
+  color: $white;
+
+  &:hover,
+  &:focus {
+    background-color: $gray-700;
+    color: $white;
+  }
+
+  .list-group-item-heading {
+    color: $white;
+  }
+}
+
+// Navs ========================================================================
+.nav-link {
+  font-size: 66%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.nav-tabs,
+.nav-pills {
+  .nav-item {
+    margin-right: 2px;
+  }
+  .nav-link {
+    font-weight: 700;
+    &.active {
+      font-weight: 400;
+    }
+  }
+  .dropdown-menu {
+    margin-top: 2px;
+  }
+}
+.nav-pills {
+  .nav-link.active {
+    font-weight: $font-weight-normal;
+  }
+}
+
+// Badges ======================================================================
+.badge {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+// Tables ======================================================================
+.table {
+  &-primary {
+    &,
+    > th,
+    > td {
+      background-color: $primary;
+    }
+  }
+
+  &-secondary {
+    &,
+    > th,
+    > td {
+      background-color: $secondary;
+    }
+  }
+
+  &-light {
+    &,
+    > th,
+    > td {
+      color: $black;
+      background-color: $light;
+    }
+  }
+
+  &-dark {
+    &,
+    > th,
+    > td {
+      background-color: $dark;
+    }
+  }
+
+  &-success {
+    &,
+    > th,
+    > td {
+      background-color: $success;
+    }
+  }
+
+  &-info {
+    &,
+    > th,
+    > td {
+      background-color: $info;
+    }
+  }
+
+  &-danger {
+    &,
+    > th,
+    > td {
+      background-color: $danger;
+    }
+  }
+
+  &-warning {
+    &,
+    > th,
+    > td {
+      color: $black;
+      background-color: $warning;
+    }
+  }
+
+  &-active {
+    &,
+    > th,
+    > td {
+      background-color: $table-active-bg;
+    }
+  }
+
+  &-hover {
+    .table-primary:hover {
+      &,
+      > th,
+      > td {
+        background-color: lighten($primary, 5%);
+      }
+    }
+
+    .table-secondary:hover {
+      &,
+      > th,
+      > td {
+        background-color: lighten($secondary, 5%);
+      }
+    }
+
+    .table-light:hover {
+      &,
+      > th,
+      > td {
+        background-color: lighten($light, 5%);
+      }
+    }
+
+    .table-dark:hover {
+      &,
+      > th,
+      > td {
+        background-color: lighten($dark, 5%);
+      }
+    }
+
+    .table-success:hover {
+      &,
+      > th,
+      > td {
+        background-color: lighten($success, 5%);
+      }
+    }
+
+    .table-info:hover {
+      &,
+      > th,
+      > td {
+        background-color: lighten($info, 5%);
+      }
+    }
+
+    .table-danger:hover {
+      &,
+      > th,
+      > td {
+        background-color: lighten($danger, 5%);
+      }
+    }
+
+    .table-warning:hover {
+      &,
+      > th,
+      > td {
+        background-color: lighten($warning, 5%);
+      }
+    }
+
+    .table-active:hover {
+      &,
+      > th,
+      > td {
+        background-color: $table-active-bg;
+      }
+    }
+  }
+}

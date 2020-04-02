@@ -1,0 +1,13 @@
+{
+  "name": "rebootstrap",
+  "version": "1.0.0",
+  "description": "Fresh themes for Bootstrap",
+  "main": "index.js",
+  "repository": "https://github.com/calebmpeterson/rebootstrap",
+  "author": "caleb.peterson@cubicle6.com",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "themes/*"
+  ]
+}
