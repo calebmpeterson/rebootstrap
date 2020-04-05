@@ -1,0 +1,97 @@
+// Variables ===================================================================
+$web-font-path: "https://fonts.googleapis.com/css?family=Nunito|Abel" !default;
+@import url($web-font-path);
+
+// Headings ====================================================================
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  text-transform: uppercase;
+}
+
+// Cards =======================================================================
+.card-header {
+  text-transform: uppercase;
+  font-size: 80%;
+}
+
+// Modals ======================================================================
+.modal {
+  .modal-dialog {
+    box-shadow: $box-shadow-lg;
+  }
+  .modal-title {
+    font-size: 100%;
+  }
+}
+
+// Buttons =====================================================================
+.btn {
+  letter-spacing: 1px;
+  font-size: 80%;
+  text-transform: uppercase;
+}
+.btn-outline-primary,
+.btn-outline-secondary,
+.btn-outline-info,
+.btn-outline-success,
+.btn-outline-warning,
+.btn-outline-danger {
+  font-weight: 900;
+}
+.btn-group-vertical {
+  .btn:not(:last-of-type) {
+    margin-bottom: 0.25rem;
+  }
+}
+
+// Breadcrumbs =================================================================
+.breadcrumb-item::before {
+  font-family: Consolas, "Courier New", monospace;
+}
+
+// Dropdowns ===================================================================
+.dropdown-menu {
+  &.show {
+    box-shadow: $box-shadow-lg;
+  }
+}
+
+// Navs ========================================================================
+.nav-link {
+  font-size: 66%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.nav-tabs,
+.nav-pills {
+  .nav-item {
+    margin-right: 2px;
+  }
+  .nav-link {
+    font-weight: $font-weight-bold;
+  }
+  .dropdown-menu {
+    margin-top: 2px;
+  }
+}
+.nav-pills {
+  .nav-link.active {
+    font-weight: $font-weight-normal;
+  }
+}
+
+// Badges ======================================================================
+.badge {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
