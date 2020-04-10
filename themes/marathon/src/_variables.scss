@@ -389,13 +389,13 @@ $input-btn-focus-width: 0.2rem !default;
 $input-btn-focus-color: rgba($component-active-bg, 0.25) !default;
 $input-btn-focus-box-shadow: 0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
 
-$input-btn-padding-y-sm: 0.25rem !default;
+$input-btn-padding-y-sm: 0.15rem !default;
 $input-btn-padding-x-sm: 0.5rem !default;
 $input-btn-font-size-sm: $font-size-sm !default;
 $input-btn-line-height-sm: $line-height-sm !default;
 
-$input-btn-padding-y-lg: 0.5rem !default;
-$input-btn-padding-x-lg: 1rem !default;
+$input-btn-padding-y-lg: 0.75rem !default;
+$input-btn-padding-x-lg: 2rem !default;
 $input-btn-font-size-lg: $font-size-lg !default;
 $input-btn-line-height-lg: $line-height-lg !default;
 
@@ -1136,7 +1136,7 @@ $close-text-shadow: 0 1px 0 $white !default;
 // Code
 
 $code-font-size: 87.5% !default;
-$code-color: $pink !default;
+$code-color: $blue !default;
 
 $kbd-padding-y: 0.2rem !default;
 $kbd-padding-x: 0.4rem !default;
@@ -1144,7 +1144,7 @@ $kbd-font-size: $code-font-size !default;
 $kbd-color: $white !default;
 $kbd-bg: $gray-900 !default;
 
-$pre-color: $gray-900 !default;
+$pre-color: $blue !default;
 $pre-scrollable-max-height: 340px !default;
 
 // Utilities

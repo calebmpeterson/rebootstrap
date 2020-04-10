@@ -414,7 +414,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  color: #0059ff;
   word-wrap: break-word; }
   a > code {
     color: inherit; }
@@ -433,7 +433,7 @@ kbd {
 pre {
   display: block;
   font-size: 87.5%;
-  color: #1a1a1a; }
+  color: #0059ff; }
   pre code {
     font-size: inherit;
     color: inherit;
@@ -1453,14 +1453,14 @@ select.form-control:focus::-ms-value {
   line-height: 1.25; }
 
 .col-form-label-lg {
-  padding-top: calc(0.5rem + 2px);
-  padding-bottom: calc(0.5rem + 2px);
+  padding-top: calc(0.75rem + 2px);
+  padding-bottom: calc(0.75rem + 2px);
   font-size: 1.25rem;
   line-height: 1.5; }
 
 .col-form-label-sm {
-  padding-top: calc(0.25rem + 2px);
-  padding-bottom: calc(0.25rem + 2px);
+  padding-top: calc(0.15rem + 2px);
+  padding-bottom: calc(0.15rem + 2px);
   font-size: 0.875rem;
   line-height: 1.5; }
 
@@ -1480,15 +1480,15 @@ select.form-control:focus::-ms-value {
     padding-left: 0; }
 
 .form-control-sm {
-  height: calc(1.5em + 0.5rem + 4px);
-  padding: 0.25rem 0.5rem;
+  height: calc(1.5em + 0.3rem + 4px);
+  padding: 0.15rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
 
 .form-control-lg {
-  height: calc(1.5em + 1rem + 4px);
-  padding: 0.5rem 1rem;
+  height: calc(1.5em + 1.5rem + 4px);
+  padding: 0.75rem 2rem;
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
@@ -2172,13 +2172,13 @@ fieldset:disabled a.btn {
     pointer-events: none; }
 
 .btn-lg, .btn-group-lg > .btn {
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 2rem;
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
 
 .btn-sm, .btn-group-sm > .btn {
-  padding: 0.25rem 0.5rem;
+  padding: 0.15rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
@@ -2470,8 +2470,8 @@ input[type="button"].btn-block {
   padding-left: 0.375rem; }
 
 .btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
-  padding-right: 0.75rem;
-  padding-left: 0.75rem; }
+  padding-right: 1.5rem;
+  padding-left: 1.5rem; }
 
 .btn-group-vertical {
   flex-direction: column;
@@ -2601,7 +2601,7 @@ input[type="button"].btn-block {
 
 .input-group-lg > .form-control:not(textarea),
 .input-group-lg > .custom-select {
-  height: calc(1.5em + 1rem + 4px); }
+  height: calc(1.5em + 1.5rem + 4px); }
 
 .input-group-lg > .form-control,
 .input-group-lg > .custom-select,
@@ -2609,14 +2609,14 @@ input[type="button"].btn-block {
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
 .input-group-lg > .input-group-append > .btn {
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 2rem;
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
 
 .input-group-sm > .form-control:not(textarea),
 .input-group-sm > .custom-select {
-  height: calc(1.5em + 0.5rem + 4px); }
+  height: calc(1.5em + 0.3rem + 4px); }
 
 .input-group-sm > .form-control,
 .input-group-sm > .custom-select,
@@ -2624,7 +2624,7 @@ input[type="button"].btn-block {
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
 .input-group-sm > .input-group-append > .btn {
-  padding: 0.25rem 0.5rem;
+  padding: 0.15rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
@@ -2798,17 +2798,17 @@ input[type="button"].btn-block {
     text-shadow: 0 0 0 #55595c; }
 
 .custom-select-sm {
-  height: calc(1.5em + 0.5rem + 4px);
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  height: calc(1.5em + 0.3rem + 4px);
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
   padding-left: 0.5rem;
   font-size: 0.875rem; }
 
 .custom-select-lg {
-  height: calc(1.5em + 1rem + 4px);
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
+  height: calc(1.5em + 1.5rem + 4px);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 2rem;
   font-size: 1.25rem; }
 
 .custom-file {
