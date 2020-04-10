@@ -11,9 +11,13 @@
     "themes/*"
   ],
   "devDependencies": {
-    "lerna": "^3.20.2"
+    "cpx": "^1.5.0",
+    "lerna": "^3.20.2",
+    "live-server": "^1.2.1"
   },
   "scripts": {
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "build:docs": "node scripts/build-docs",
+    "serve:docs": "live-server --open=docs/"
   }
 }
