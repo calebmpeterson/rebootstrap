@@ -17,6 +17,13 @@ h6,
 .h6 {
 }
 
+// Typography ==================================================================
+pre {
+  background-color: rgba($gray-800, 0.33);
+  padding: 1rem;
+  border-radius: $border-radius;
+}
+
 // Cards =======================================================================
 .card {
   .card-header {

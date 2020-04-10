@@ -321,7 +321,7 @@ $lead-font-weight: 300 !default;
 
 $small-font-size: 80% !default;
 
-$text-muted: $gray-600 !default;
+$text-muted: $gray-300 !default;
 
 $blockquote-small-color: $gray-600 !default;
 $blockquote-small-font-size: $small-font-size !default;
@@ -358,7 +358,7 @@ $table-hover-bg: rgba($black, 0.075) !default;
 $table-active-bg: $table-hover-bg !default;
 
 $table-border-width: $border-width !default;
-$table-border-color: $border-color !default;
+$table-border-color: $gray-800 !default;
 
 $table-head-bg: $gray-200 !default;
 $table-head-color: $gray-700 !default;
@@ -1138,15 +1138,15 @@ $close-text-shadow: 0 1px 0 $gray-800 !default;
 // Code
 
 $code-font-size: 87.5% !default;
-$code-color: $pink !default;
+$code-color: $teal !default;
 
 $kbd-padding-y: 0.2rem !default;
 $kbd-padding-x: 0.4rem !default;
 $kbd-font-size: $code-font-size !default;
-$kbd-color: $white !default;
+$kbd-color: $teal !default;
 $kbd-bg: $gray-900 !default;
 
-$pre-color: $gray-900 !default;
+$pre-color: $code-color !default;
 $pre-scrollable-max-height: 340px !default;
 
 // Utilities

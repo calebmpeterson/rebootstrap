@@ -1,9 +1,6 @@
 body {
   padding-top: 120px;
 }
-pre {
-  background: #f7f7f9;
-}
 @media (min-width: 768px) {
   body > .navbar-transparent {
     box-shadow: none;
