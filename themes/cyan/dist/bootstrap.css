@@ -7159,9 +7159,6 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-.btn {
-  text-transform: uppercase; }
-
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   text-transform: uppercase; }
@@ -7178,7 +7175,8 @@ h1, h2, h3, h4, h5, h6,
 
 .btn {
   letter-spacing: 1px;
-  font-size: 80%; }
+  font-size: 80%;
+  text-transform: uppercase; }
 
 .btn-outline-primary,
 .btn-outline-secondary,

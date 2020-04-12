@@ -1,0 +1,25 @@
+{
+  "name": "republic",
+  "version": "1.0.0",
+  "description": "Republic theme for Bootstrap",
+  "main": "index.js",
+  "author": "caleb.peterson@cubicle6.com",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.13.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "scripts": {
+    "build": "npm-run-all build:* build:docs:* build:dist:*",
+    "build:dist": "node-sass src/build.scss dist/bootstrap.css",
+    "build:dist:min": "node-sass --output-style compressed src/build.scss dist/bootstrap.min.css",
+    "build:docs": "node-sass src/build.scss docs/dist/bootstrap.css",
+    "build:docs:min": "node-sass --output-style compressed src/build.scss docs/dist/bootstrap.min.css",
+    "watch": "node-sass src/build.scss docs/dist/bootstrap.css --watch",
+    "serve": "live-server --open=docs/",
+    "dev": "npm-run-all -p watch serve"
+  }
+}
