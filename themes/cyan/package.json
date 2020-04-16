@@ -2,6 +2,10 @@
   "name": "cyan",
   "version": "1.0.0",
   "description": "Cyan theme for Bootstrap",
+  "thumbnail": {
+    "name": "Cyan",
+    "slogan": "Grey and green"
+  },
   "main": "index.js",
   "author": "caleb.peterson@cubicle6.com",
   "license": "MIT",

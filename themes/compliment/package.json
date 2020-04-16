@@ -2,6 +2,10 @@
   "name": "compliment",
   "version": "1.0.0",
   "description": "Compliment theme for Bootstrap",
+  "thumbnail": {
+    "name": "Compliment",
+    "slogan": "Yes! And..."
+  },
   "main": "index.js",
   "author": "caleb.peterson@cubicle6.com",
   "license": "MIT",

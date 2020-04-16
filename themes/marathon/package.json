@@ -2,6 +2,10 @@
   "name": "marathon",
   "version": "1.0.0",
   "description": "Marathon theme for Bootstrap",
+  "thumbnail": {
+    "name": "Marathon",
+    "slogan": "It's not a sprint."
+  },
   "main": "index.js",
   "author": "caleb.peterson@cubicle6.com",
   "license": "MIT",

@@ -1,7 +1,11 @@
 {
-  "name": "magenta",
+  "name": "ultraviolet",
   "version": "1.0.0",
-  "description": "Magenta theme for Bootstrap",
+  "description": "Ultraviolet theme for Bootstrap",
+  "thumbnail": {
+    "name": "Ultraviolet",
+    "slogan": "Bring your black light"
+  },
   "main": "index.js",
   "author": "caleb.peterson@cubicle6.com",
   "license": "MIT",

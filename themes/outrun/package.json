@@ -2,6 +2,10 @@
   "name": "outrun",
   "version": "1.0.0",
   "description": "Outrun theme for Bootstrap",
+  "thumbnail": {
+    "name": "Outrun",
+    "slogan": "Don't stop running"
+  },
   "main": "index.js",
   "author": "caleb.peterson@cubicle6.com",
   "license": "MIT",

@@ -2,6 +2,10 @@
   "name": "tiikeri",
   "version": "1.0.0",
   "description": "Tiikeri theme for Bootstrap",
+  "thumbnail": {
+    "name": "Tiikeri",
+    "slogan": "Apex predator"
+  },
   "main": "index.js",
   "author": "caleb.peterson@cubicle6.com",
   "license": "MIT",
