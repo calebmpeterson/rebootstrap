@@ -7175,7 +7175,7 @@ pre {
 .card.bg-dark .card-title {
   color: #ceddee; }
 
-.modal .modal-dialog {
+.modal .modal-dialog .modal-content {
   box-shadow: 0 1rem 3rem rgba(34, 201, 187, 0.175);
   border-radius: 1rem; }
 

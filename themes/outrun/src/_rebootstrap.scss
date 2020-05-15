@@ -44,7 +44,7 @@ pre {
 
 // Modals ======================================================================
 .modal {
-  .modal-dialog {
+  .modal-dialog .modal-content {
     box-shadow: $box-shadow-lg;
     border-radius: $border-radius-lg;
   }

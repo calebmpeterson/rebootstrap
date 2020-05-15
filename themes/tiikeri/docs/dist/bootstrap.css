@@ -7171,8 +7171,10 @@ a.text-dark:hover, a.text-dark:focus {
   color: #f8f9fa; }
 
 .modal .modal-dialog {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   border-radius: 1rem; }
+
+.modal .modal-dialog .modal-content {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175); }
 
 .modal .modal-title {
   font-size: 100%; }

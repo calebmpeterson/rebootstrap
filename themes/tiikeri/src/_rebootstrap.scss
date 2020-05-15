@@ -38,8 +38,10 @@ h6,
 // Modals ======================================================================
 .modal {
   .modal-dialog {
-    box-shadow: $box-shadow-lg;
     border-radius: $border-radius-lg;
+  }
+  .modal-dialog .modal-content {
+    box-shadow: $box-shadow-lg;
   }
   .modal-title {
     font-size: 100%;

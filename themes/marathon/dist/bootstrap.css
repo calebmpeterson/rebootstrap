@@ -7167,7 +7167,7 @@ h1, h2, h3, h4, h5, h6,
   text-transform: uppercase;
   font-size: 80%; }
 
-.modal .modal-dialog {
+.modal .modal-dialog .modal-content {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175); }
 
 .modal .modal-title {
