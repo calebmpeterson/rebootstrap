@@ -7203,7 +7203,7 @@ a.text-dark:hover, a.text-dark:focus {
   text-transform: uppercase;
   font-size: 80%; }
 
-.modal .modal-dialog {
+.modal .modal-dialog .modal-content {
   box-shadow: 0 1rem 3rem rgba(6, 10, 29, 0.175); }
 
 .modal .modal-title {
