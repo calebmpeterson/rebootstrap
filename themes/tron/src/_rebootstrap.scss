@@ -1,0 +1,339 @@
+// Variables ===================================================================
+$web-font-path: "https://fonts.googleapis.com/css?family=Orbitron|Jura" !default;
+@import url($web-font-path);
+
+// Headings ====================================================================
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  text-shadow: 0px 1px 3px rgba($headings-color, 0.25);
+  letter-spacing: 3px;
+}
+
+// Typography ==================================================================
+pre {
+  background-color: $gray-800 !important;
+  padding: 1rem;
+  border-radius: $border-radius;
+}
+
+// Cards =======================================================================
+.card {
+  .card-header {
+    text-transform: uppercase;
+    font-size: 80%;
+  }
+  .card-title {
+    color: $body-color;
+  }
+
+  &.bg-dark {
+    &,
+    .card-title {
+      color: $gray-100;
+    }
+  }
+}
+
+// Modals ======================================================================
+.modal {
+  .modal-dialog .modal-content {
+    box-shadow: $box-shadow-lg;
+    border-radius: $border-radius-lg;
+  }
+  .modal-title {
+    font-size: 100%;
+  }
+}
+
+// Forms =======================================================================
+
+select:not([multiple]) {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23212529%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+  background-color: $gray-800;
+}
+
+// Buttons =====================================================================
+.btn {
+  letter-spacing: 1px;
+  font-size: 80%;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.btn-group-vertical {
+  .btn:not(:last-of-type) {
+    margin-bottom: 0.25rem;
+  }
+}
+
+// Breadcrumbs =================================================================
+.breadcrumb-item {
+  font-weight: 700;
+  a {
+    text-decoration: none;
+  }
+}
+.breadcrumb-item::before {
+  font-family: Consolas, "Courier New", monospace;
+}
+
+// List Groups =================================================================
+.list-group-item {
+  &.active {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6 {
+      color: $white;
+    }
+  }
+}
+.list-group-item-action {
+  text-decoration: none;
+
+  .list-group-item-heading {
+    color: $white;
+  }
+}
+
+// Navs ========================================================================
+.nav-link {
+  font-size: 66%;
+  font-family: Orbitron;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.nav-tabs,
+.nav-pills {
+  .nav-item {
+    margin-right: 2px;
+  }
+  .nav-link {
+    font-weight: 900;
+    &.active {
+      font-weight: 400;
+    }
+  }
+  .dropdown-menu {
+    margin-top: 2px;
+  }
+}
+.nav-pills {
+  .nav-link.active {
+    font-weight: $font-weight-normal;
+  }
+}
+
+// Navbar ======================================================================
+.navbar {
+  .navbar-brand {
+    font-family: Orbitron;
+    text-decoration: none;
+  }
+}
+
+// Dropdown ====================================================================
+.dropdown-menu {
+  &.show {
+    box-shadow: $box-shadow;
+  }
+  .dropdown-item {
+    text-decoration: none;
+  }
+}
+
+// Pagination ==================================================================
+.pagination {
+  .page-item {
+    .page-link {
+      text-decoration: none;
+    }
+  }
+}
+
+// Badges ======================================================================
+.badge {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+// Tables ======================================================================
+.table {
+  &-primary {
+    &,
+    > th,
+    > td {
+      color: $gray-100;
+      background-color: $primary;
+    }
+  }
+
+  &-secondary {
+    &,
+    > th,
+    > td {
+      color: $gray-200;
+      background-color: $secondary;
+    }
+  }
+
+  &-light {
+    &,
+    > th,
+    > td {
+      color: $black;
+      background-color: $light;
+    }
+  }
+
+  &-dark {
+    &,
+    > th,
+    > td {
+      background-color: $dark;
+    }
+  }
+
+  &-success {
+    &,
+    > th,
+    > td {
+      background-color: $success;
+    }
+  }
+
+  &-info {
+    &,
+    > th,
+    > td {
+      background-color: $info;
+    }
+  }
+
+  &-danger {
+    &,
+    > th,
+    > td {
+      background-color: $danger;
+    }
+  }
+
+  &-warning {
+    &,
+    > th,
+    > td {
+      color: $black;
+      background-color: $warning;
+    }
+  }
+
+  &-active {
+    &,
+    > th,
+    > td {
+      background-color: $table-active-bg;
+    }
+  }
+
+  &-hover {
+    .table-primary:hover {
+      &,
+      > th,
+      > td {
+        background-color: lighten($primary, 5%);
+      }
+    }
+
+    .table-secondary:hover {
+      &,
+      > th,
+      > td {
+        background-color: lighten($secondary, 5%);
+      }
+    }
+
+    .table-light:hover {
+      &,
+      > th,
+      > td {
+        background-color: lighten($light, 5%);
+      }
+    }
+
+    .table-dark:hover {
+      &,
+      > th,
+      > td {
+        background-color: lighten($dark, 5%);
+      }
+    }
+
+    .table-success:hover {
+      &,
+      > th,
+      > td {
+        background-color: lighten($success, 5%);
+      }
+    }
+
+    .table-info:hover {
+      &,
+      > th,
+      > td {
+        background-color: lighten($info, 5%);
+      }
+    }
+
+    .table-danger:hover {
+      &,
+      > th,
+      > td {
+        background-color: lighten($danger, 5%);
+      }
+    }
+
+    .table-warning:hover {
+      &,
+      > th,
+      > td {
+        background-color: lighten($warning, 5%);
+      }
+    }
+
+    .table-active:hover {
+      &,
+      > th,
+      > td {
+        background-color: $table-active-bg;
+      }
+    }
+  }
+}
