@@ -19,9 +19,11 @@
   "scripts": {
     "build": "npm-run-all build:* build:docs:* build:dist:*",
     "build:dist": "node-sass src/build.scss dist/bootstrap.css",
+    "build:dist:src": "cp src/_*.scss dist/",
     "build:dist:min": "node-sass --output-style compressed src/build.scss dist/bootstrap.min.css",
     "build:docs": "node-sass src/build.scss docs/dist/bootstrap.css",
     "build:docs:min": "node-sass --output-style compressed src/build.scss docs/dist/bootstrap.min.css",
+    "build:docs:src": "cp src/_*.scss docs/dist/",
     "watch": "node-sass src/build.scss docs/dist/bootstrap.css --watch",
     "serve": "live-server --open=docs/",
     "dev": "npm-run-all -p watch serve"
