@@ -18,8 +18,9 @@
     "npm-run-all": "^4.1.5"
   },
   "scripts": {
-    "build": "lerna run build",
+    "build:themes": "lerna run build",
     "build:docs": "node scripts/build-docs",
+    "build": "npm-run-all build:themes build:docs",
     "serve:docs": "live-server --open=docs/"
   }
 }
